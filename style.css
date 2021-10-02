@@ -1,0 +1,42 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.header{
+  width: 100%;
+  height: 60px ;
+  background-color: #4D4F5E;
+}
+.header_icon img{
+  height: 50px;
+  display: table;
+  float: left;
+  border-radius: 50%;
+  margin-top: 6px;
+  margin-left: 10px;
+}
+#home_btn{
+  color: #FFF;
+  
+}
+#play_btn{
+  color:#FFF;
+}
+#library_btn{
+  color:#FFF;
+}
+#calendar_btn{
+  color:#FFF;
+  
+}
+#task_btn{
+  color:#FFF;
+  
+}
+.header_menu{
+  width: 140px;
+  height: 30px;
+  background-color: #000000;
+  float: right;
+  
+}
