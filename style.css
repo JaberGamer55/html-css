@@ -2,63 +2,42 @@
   margin: 0px;
   padding: 0px;
 }
-.header{
+
+body{
+  background-color: #42445A;
+}
+input{
+  
+  width: 99%;
+  height: 70px;
+  border-radius: 50px;
+  margin-top:70px; 
+}
+.Row{
+  display: flax;
+  margin: 30px;
+  
+  
+}
+.btn{
+  background-color: #000;
+  color: #FFFFFF;
+  width: 70px;
+  height: 70px;
+  border-radius: 25px;
+  
+}
+.butn{
+  background-color: #FF0000;
+  border-color: #fff;
+  color: #fff;
+  width: 70px;
+  height: 70px;
+  border-radius: 25px;
+}
+.content{
+
   width: 100%;
-  height: 60px ;
-  background-color: #4D4F5E;
-}
-.header_icon img{
-  height: 50px;
-  display: table;
-  float: left;
-  border-radius: 50%;
-  margin-top: 6px;
-  margin-left: 10px;
-}
-#home_btn{
-  color: #FFF;
-  
-}
-#play_btn{
-  color:#FFF;
-}
-#library_btn{
-  color:#FFF;
-}
-#calendar_btn{
-  color:#FFF;
-  
-}
-#task_btn{
-  color:#FFF;
-  
-}
-.header_menu{
-  width: 140px;
-  height: 30px;
-  background-color: #000000;
-  float: right;
-  margin-right: 60px;
-  margin-top: 10px;
- border-radius: 5px;
-  
-}
-.logo{
-color: white;
-font-size: 40px;
-margin-left: 9px;
-position: absolute;
-}
-.para{
-  position: absolute;
-  top:5%;
-  max-width: 46%;
-  padding: 50px;
-}
-.img{
-  position: absolute;
-height: 80px;
-  width: 80px;
-  left:66%;
-  top:13%;
+  height: 100%;
+  margin-top:80px;
 }
